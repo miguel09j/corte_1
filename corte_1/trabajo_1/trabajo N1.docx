@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	Escribir 'ingrese un numero'
+	Leer n
+	Escribir 'los numeros divisibles son',n,''
+	Para i<-1 Hasta n Hacer
+		Si n Mod i==0 Entonces
+			Escribir i
+		FinSi
+	FinPara
+FinAlgoritmo
